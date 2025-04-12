@@ -42,7 +42,7 @@ function TextExpander({
   const fullText = children;
   const shortText =
     children.split(' ').slice(0, collapsedNumWords).join(' ') + '...'; //Đầu tiên sẽ chuyển string thành mảng. Sau đó cắt từ vị trí 0 - 20. Tiếp theo là nối cái mảng lại thành chuỗi
-
+  //Update
   function handleToggle() {
     setIsOpen((isOpen) => !isOpen);
   }
